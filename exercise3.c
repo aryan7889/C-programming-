@@ -13,8 +13,10 @@ int main (){
     } else if (age<=59)
     {
         printf("the person is adult.");
-    }else{
+    }else if (age>=60){
         printf("the person is a adult.");
+    } else{
+        printf("type the valid age.");
     }
 
 return 0;
