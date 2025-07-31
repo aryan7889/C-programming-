@@ -10,7 +10,7 @@ int main(){
 
     float result = 0;
 
-    char operator = 0;
+    char operator = '\0';
     printf("which operation has to be performed (+,-,/,*): ");
     scanf(" %c",&operator);
 
