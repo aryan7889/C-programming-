@@ -11,20 +11,14 @@ int main (){
         break;
     case 4: case 6: case 9: case 11:
         printf("30 Days in the month.\n");
-    break;
+        break;
+    case 2:
+        printf("28 days in the month.\n");
+        break;
     default:
         printf("Invalid number type between (1-12).\n");
     }
 
-switch (month)
-{
-case 1:
-    printf("January\n");
-    break;
-
-default:
-    printf("testing something.\n");
-}
 return 0;
 
 }
