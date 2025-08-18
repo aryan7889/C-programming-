@@ -23,9 +23,6 @@ int main(){
     case 3:
         printf("YOu choose SCISSORS.\n");
         break;
-    default:
-        printf("YOu the nuber between 1-3\n");
-        break;
     }
     switch (computerchoice)
     {
@@ -39,6 +36,7 @@ int main(){
         printf("Computer choose SCISSORS.\n");
         break;
     }
+checkwinner(userchoice,computerchoice);
 
     return 0;
 }
@@ -60,5 +58,20 @@ int getuserchoice(){
     return choice;
 }
 void checkwinner(int userchoice,int computerchoice){
-
+    if (userchoice == computerchoice)
+    {
+        printf("It's a TIE !!");
+    }else if (userchoice == 1 && computerchoice == 3)
+    {
+        printf("YOU WIN !!\n");
+    }else if (userchoice == 2 && computerchoice == 1)
+    {
+        printf("YOU WIN !!\n");
+    }else if (userchoice == 3 && computerchoice == 2)
+    {
+        printf("YOU WIN !!\n");
+    }else {
+        printf("You LOSE !!\n");
+    }
+    
 }
