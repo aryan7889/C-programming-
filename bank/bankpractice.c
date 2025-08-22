@@ -32,7 +32,7 @@ int main(){
             printf("Thanks for using the bank.");
             break;
         default:
-            printf("Enter the choice beetween 1 to 4");
+            printf("Enter the choice beetweemn 1 to 4");
         }
 
     } while (choice != 4);
