@@ -49,7 +49,7 @@ int main(){
     }
     if (firstgreaterthen40)
     {
-        printf(" forst greater then 40 is : %d",number);
+        printf("first greater then 40 is : %d",number);
     }else {
         printf("no number is bigger then 40");
     }
