@@ -11,7 +11,7 @@ int main() {
         // // Left spaces
         // for(int j = 1; j < n-i/2; j++) {
         //     printf(" ");
-        // }
+        // }    
         
         // Left curve
         for(int j = 1; j <= i; j++) {
